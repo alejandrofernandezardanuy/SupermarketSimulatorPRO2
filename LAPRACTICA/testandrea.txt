@@ -1,0 +1,102 @@
+                                fitness
+                                   |
+                               ---- ----
+                              |         |
+                           piscina     gym
+                              |
+                -------------- --------------
+               |                             |
+            montaña                      triatlon
+               |                             |
+         ------ ------              --------- ---------
+        |             |            |                   |
+    alpinismo    piragüismo     futbol            atletismo
+        |                          |                   |
+   ----- -----                 ---- ----           ---- ----
+  |           |               |         |         |         |
+kayak     senderismo         golf    ajedrez     surf    basquet
+
+
+
+
+2
+
+nuevo_cliente
+fitness #
+
+quiere_comprar 1
+
+salas_a_visitar 1
+
+pago_cliente 
+1 00:20:20 fitness 1 #
+
+escribir_cajas 00:20:20
+
+nuevo_cliente
+fitness #
+
+quiere_comprar 2
+
+salas_a_visitar 2
+
+pago_cliente 
+2 00:20:23 senderismo 3 #
+
+nuevo_cliente 
+kayak senderismo golf ajedrez surf basquet #
+
+salas_a_visitar 3
+
+quiere_comprar 3
+
+pago_cliente 
+3 00:20:29 kayak 1 senderismo 1 golf 1 ajedrez 1 surf 1 fitness 1 piscina 1 gym 1 #
+
+escribir_cajas 00:20:30
+
+nuevo_cliente
+basquet #
+
+salas_a_visitar 4
+
+quiere_comprar 4
+
+pago_cliente
+4 00:20:31 fintess 1 gym 1 triatlon 1 atletismo 1 basquet 1 #
+
+escribir_cajas 00:20:32
+
+nuevo_cliente
+basquet #
+
+pago_cliente
+5 00:20:31 basquet 55 #
+
+nuevo_cliente
+basquet #
+
+pago_cliente
+6 00:20:31 basquet 55 #
+
+nuevo_cliente
+basquet #
+
+pago_cliente
+7 00:20:31 basquet 55 #
+
+nuevo_cliente
+basquet #
+
+pago_cliente
+8 00:20:31 basquet 55 #
+
+nuevo_cliente
+basquet #
+
+pago_cliente
+9 00:20:31 basquet 55 #
+
+escribir_cajas 00:20:31
+
+fin

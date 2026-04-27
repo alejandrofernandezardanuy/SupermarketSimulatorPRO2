@@ -1,0 +1,6 @@
+Este juego de pruebas esta focalizado en casos extremos 
+ relacionados con los tiempos, es decir, se tratan las horas
+ 00:00:00 y 23:59:59, tambien horas en las que coinciden varios 
+ clientes, especialmente escribir_cajas y pago_cliente. 
+ Probando asi que sucederia en casos no tan comunes pero que 
+ se pueden dar igualmente.

@@ -1,0 +1,3 @@
+Este juego de pruebas pone su enfasis en los arboles mas pequeños y que sucede al realizar el resto de funciones cuando el cliente 
+no quiere comprar solo una cosa que se puede dar como un caso real. Tambien mira casos en que las cajas esten repletas de clientes. Podemos
+ver que el resto de funciones responden bien a pesar de no tener que realizar ningun proceso mayor.

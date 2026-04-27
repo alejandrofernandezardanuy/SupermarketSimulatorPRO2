@@ -1,0 +1,153 @@
+                                    Pato
+                                     |
+                         ------------ ------------
+                        |                         |
+                     tortilla                   pizza
+                        |                         |
+                   ----- -----                ---- ----
+                  |           |              |         |
+             hamburguesa     sopa         patatas    tomate
+                  |                          |
+        ---------- ----------          ------ ------
+       |                     |        |             |
+  huevos_rotos             jamon     pure     crema_catalana
+       |                     |
+   ---- ----            ----- -----
+  |         |          |           |
+pastel    bocata    madalena     bravas
+
+
+
+4
+
+nuevo_cliente
+tortilla huevos_rotos bravas tomate #
+
+quiere_comprar 1
+
+salas_a_visitar 1
+
+nuevo_cliente
+crema_catalana #
+
+nuevo_cliente
+hamburguesa pastel madalena pure #
+
+quiere_comprar 3
+
+quiere_comprar 2
+
+nuevo_cliente
+jamon pure pastel #
+
+nuevo_cliente
+bravas #
+
+nuevo_cliente
+huevos_rotos tomate #
+
+salas_a_visitar 6
+
+salas_a_visitar 5
+
+nuevo_cliente
+sopa #
+
+quiere_comprar 2
+
+salas_a_visitar 7
+
+quiere_comprar 3
+
+salas_a_visitar 3
+
+nuevo_cliente
+bocata pure #
+
+quiere_comprar 4
+
+salas_a_visitar 8
+
+quiere_comprar 1
+
+salas_a_visitar 5
+
+quiere_comprar 6
+
+salas_a_visitar 6
+
+nuevo_cliente 
+sopa pure #
+
+quiere_comprar 2
+
+salas_a_visitar 4
+
+pago_cliente
+5 00:00:01 jamon 5 tortilla 2 bravas 8 #
+
+pago_cliente
+7 01:59:59 tortilla 8 Pato 2 sopa 26 #
+
+pago_cliente
+1 02:00:00 tortilla 2 huevos_rotos 3 bravas 7 tomate 6 pato 7 jamon 1 #
+
+escribir_cajas 02:00:44
+
+nuevo_cliente
+hamburguesa pizaa crema_catalana #
+
+pago_cliente
+3 02:00:59 hamburguesa 2 pastel 3 madalena 5 pure 6 patatas 10 Pato 15 #
+
+escribir_cajas 02:01:00
+
+pago_cliente
+4 04:30:59 jamon 6 pure 7 pastel 8 huevos_rotos 1 hamburguesa 1 tortilla 1 pato 1 #
+
+escribir_cajas 04:35:47
+
+pago_cliente
+2 08:00:00 crema_catalana 3 patatas 44 pizza 55 pato 33 #
+
+escribir_cajas  08:00:01
+
+pago_cliente
+6 09:00:00 huevos_rotos 4 tomate 4 #
+
+escribir_cajas 09:00:01
+
+escribir_cajas 09:00:15
+
+pago_cliente
+8 11:11:10 bocata 7 pure 8 patatas 4 pizza 2 #
+
+escribir_cajas 11:11:10
+
+compra_y_no_quiere 1
+
+pago_cliente 
+9 11:11:11 sopa 3 pure 99 patatas 23 pizza 55 #
+
+pago_cliente
+10 11:11:11  hamburguesa 4 pizaa 1 crema_catalana 87 patatas 3 pato 8 tortilla 4 #
+
+escribir_cajas 11:11:12
+
+compra_y_no_quiere 2
+
+compra_y_no_quiere 3
+
+compra_y_no_quiere 4
+
+compra_y_no_quiere 5
+
+compra_y_no_quiere 6
+
+compra_y_no_quiere 7
+
+compra_y_no_quiere 8
+
+compran_y_no_quieren
+
+fin

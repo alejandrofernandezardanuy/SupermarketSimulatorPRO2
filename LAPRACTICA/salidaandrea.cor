@@ -1,0 +1,25 @@
+Organizacion de las salas:
+                                fitness
+                                   |
+                               ---- ----
+                              |         |
+                           piscina     gym
+                              |
+                -------------- --------------
+               |                             |
+            montaña                      triatlon
+               |                             |
+         ------ ------              --------- ---------
+        |             |            |                   |
+    alpinismo    piragüismo     futbol            atletismo
+        |                          |                   |
+   ----- -----                 ---- ----           ---- ----
+  |           |               |         |         |         |
+kayak     senderismo         golf    ajedrez     surf    basquet
+
+Hay 5 cajas
+
+#nuevo_cliente
+Subarbol del cliente 1:
+
+Recorrido por la tienda del cliente 1:
